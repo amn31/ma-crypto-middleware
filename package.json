@@ -1,0 +1,30 @@
+{
+  "name": "@amn31/ma-crypto-middleware",
+  "version": "1.0.0",
+  "description": "Middleware permettant de sécuriser les données entre Backend & Front",
+  "main": "dist/ma-crypto-middleware.js",
+  "types": "dist/ma-crypto-middleware.d.ts",
+  "scripts": {
+    "test": "ts-node test.ts",
+    "build": "tsc --project tsconfig-build.json"
+  },
+  "keywords": [
+    "middleware",
+    "front",
+    "backend",
+    "angular",
+    "nodejs",
+    "crypto",
+    "compress"
+  ],
+  "author": "Alain M.",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/crypto-js": "^4.0.2",
+    "@types/node": "^16.11.12",
+    "typescript": "^4.5.3"
+  },
+  "dependencies": {
+    "crypto-js": "^4.1.1"
+  }
+}
