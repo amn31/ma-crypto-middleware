@@ -32,7 +32,7 @@ You will find an example of middleware to implement in the backend side and an e
     console.log('Decrypted data : ',data1)
 
     // Crypt a JSON
-    let jsonData:any = {message:'_____________ @amn31/ma-crypto-middleware _____________'}
+    let jsonData = {message:'_____________ @amn31/ma-crypto-middleware _____________'}
     stringCrypted = crypto.JSONencrypt(jsonData);
     console.log('JSON crypted data : ',stringCrypted)
     // Decrypt JSON

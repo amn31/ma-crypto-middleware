@@ -10,8 +10,8 @@ const JsonData = {
     "starAction": "/package/%40amn31%2Fma-parallel-promises/star",
     "scope": "amn31"
 }
-const maCrypto = require("./dist/ma-crypto-middleware");
-//const maCrypto = require("@amn31/ma-crypto-middleware");
+//const maCrypto = require("./dist/ma-crypto-middleware");
+const maCrypto = require("@amn31/ma-crypto-middleware");
 
 
 const crypto1 = new maCrypto.MACrypto({
